@@ -142,15 +142,12 @@
 
 		}
 
-		
-		
-		
-		.modal-content .modalimg {
+	 .modalimg {
 			width:400px;
 			display:inline-block;
 		}
 		
-		.modal-content .modaltext {
+	 .modaltext {
 			display:inline-block;
 		}
 		
