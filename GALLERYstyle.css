@@ -136,20 +136,19 @@
 		}
 		
 		.modal-content {
-			
 			background-color:transparent;
-		
-
 		}
+		
 
 	 .modalimg {
 			width:400px;
 			display:inline-block;
 		}
 		
-	 .modaltext {
+	 .modaltext, .modal-content p, .modal-content h4 {
 			display:inline-block;
 		}
+	.modal-content
 		
 		
 		.modal-body h4,.modal-body h1 
