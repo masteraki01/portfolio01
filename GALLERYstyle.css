@@ -149,6 +149,7 @@
 
 		.modal-content .modalrectangle {
 			width:100%;
+			max-width:500px;
 			border-radius:0px;
 			margin-left:auto;
 			margin-right:auto;
