@@ -142,11 +142,7 @@
 
 		}
 
-		.modal-body img {
-			margin-left:auto;
-			margin-right:auto;
-			width:400px;
-		}
+
 		
 		
 		.modal-body .modalimg {
@@ -164,15 +160,15 @@
 		}
 		
 		
-		.modal-body h4,.modal-body h1 
-		.modal-body h2,.modal-body h3,{
+		.modal-content h4,.modal-content h1 
+		.modal-content h2,.modal-content h3,{
 			font-weight:bold;
 			font-family:Roboto, Open Sans, Verdana;
-			color:black;
+			color:white;
 		}
 
 		.modal-body p {
-			color:black;
+			color:white;
 		}
 		
 		.tab-pane {
