@@ -142,13 +142,13 @@
 		}
 
 		.modal-content .modalimg {
-			width:400px;
+			width:100%;
 			border-radius:0px;
 			display:inline-block;
 		}
 
 		.modal-content .modalrectangle {
-			width:700px;
+			width:100%;
 			border-radius:0px;
 			margin-left:auto;
 			margin-right:auto;
