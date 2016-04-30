@@ -113,7 +113,7 @@
 		.modal {
 			margin-top:auto;
 			margin-bottom:auto;
-			color:white;
+			color:black;
 		}
 		
 		.modal-header {
@@ -136,19 +136,32 @@
 		}
 		
 		.modal-content {
-			background-color:transparent;
-		}
-		
+			
+			margin-top:90px;
+			margin-left:auto;
 
-	 .modalimg {
+		}
+
+		.modal-body img {
+			margin-left:auto;
+			margin-right:auto;
 			width:400px;
-			display:inline-block;
 		}
 		
-	 .modaltext, .modal-content p, .modal-content h4 {
+		
+		.modal-body .modalimg {
+			width:500px;
 			display:inline-block;
 		}
-	.modal-content
+
+		.modal-body .modalrectangle {
+			width:700px;
+
+		}
+		
+		.modal-body .modaltext {
+			display:inline-block;
+		}
 		
 		
 		.modal-body h4,.modal-body h1 
