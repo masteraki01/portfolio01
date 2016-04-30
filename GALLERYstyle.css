@@ -107,7 +107,7 @@
 		img {
 			padding:10px 0px;
 			width:200px;
-			border-radius:20px;
+			border-radius:0px;
 		}
 		
 		.modal {
@@ -135,26 +135,21 @@
 			color:white;
 		}
 		
-		.modal-content {
-			
-			margin-top:90px;
-			margin-left:auto;
 
+
+		.modal-content {
+			color:white;
 		}
 
-
-		
-		
 		.modal-content .modalimg {
-			width:500px;
-			border-radius:none;
+			width:400px;
+			border-radius:0px;
 			display:inline-block;
-
 		}
 
 		.modal-content .modalrectangle {
 			width:700px;
-			border-radius:none;
+			border-radius:0px;
 			margin-left:auto;
 			margin-right:auto;
 
