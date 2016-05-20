@@ -3,186 +3,381 @@
 		* {
 			font-family:Roboto, Open Sans, Verdana;
 		}
-		
-		.header {
-			background-color:white;
-			list-style:none;
-			padding:20px;
+
+
+		/*SPLASH Page*/
+		.splashheader .title{
+			margin-left:auto;
+			margin-right:auto;
+			display:block;
+
 		}
-		
-		.header h1 {
-			font-family:Open Sans Condensed, Roboto, Verdana;
-			font-size:40px;
+		.splashheader {
+			margin-top:200px;
+			margin-bottom:auto;
+			text-align:center;
+			color:black;
+		}
+		.splashheader h1 {
+			font-family:Open Sans Condensed;
+			font-size:80px;
 			font-weight:bold;
-			color:black;
-			display:inline;
 		}
-		
-		.header .navigation{
-			padding-top:10px;
-	
-			float:right;
+		.splashheader h2 {
+			margin-top:30px;
+			font-weight:bold;
+		}
+		.splashnavigation {
 			list-style:none;
-			
-		}
-		
-		.header li {
+			margin-top:60px;
+			margin-left:auto;
+			margin-right:auto;
 			display:inline-block;
-			padding:10px 20px;
+		}
+		.splashnavigation li {
+			border:1px solid black;
+			border-radius:2px;
+			padding:15px;
+			list-style:none;
+			display:inline-block;
+		}
+		.splashnavigation a {
 			color:black;
-		}
-		
-		.header a {
-			font-size:15px;
-			color:white;
-	
 			text-decoration:none;
+			margin-left:10px;
+			margin-right:10px;
+			padding:5px;
 		}
-		
-		.header li:hover{
+		.splashnavigation a :hover{
 			background-color:#397ecc;
-			border-radius:5px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			color:white;
-		}
 		
-		.gallery .container{
+		}
+		.splashfooter {
+		background-color:white;
+		margin-top:95px;
+		padding-top:50px;
+		padding-bottom:30px;
+		text-align:center;
+    }
+		.splashfooter h4 {
+		margin-top:14px;
+		color:#397ecc;
+	}
+		.splashfooter a{
+		padding-top:20px;
+		padding-left:5px;
+		padding-right:5px;
+		display:inline;
+	}
+		.fa-facebook-square, .fa-instagram, .fa-twitter, .fa-tumblr,
+		.fa-linkedin, .fa-copyright {
+		font-size:40px;
+		color:#397ecc;
+	}
+		.splashfooter .fa-copyright {
+		margin-top:20px;
+		color:#397ecc;
+		font-size:12px;
+	}
+		.splashfooter i:hover {
+		color:#397ecc;
+	}
+
+							@media only screen and (max-width: 550px){
+								* {
+									font-family:Roboto, Open Sans, Verdana;
+								}
+								.splashheader{
+									margin-top:50px;
+								}
+
+								.splashheader .title{
+									font-size:xx-large;
+									font-weight:bolder;
+								}
+								.splashheader h2{
+									font-size:medium;
+									font-weight:lighter;
+								}
+								.splashnavigation{
+									margin-top:20px;
+								}
+								.splashnavigation li{
+									display:block;
+									font-weight:bolder;
+								}
+								.splashfooter{
+									margin-top:0px;
+								}
+
+							}
+
+		/*Main CSS's*/
+		.header {
+			margin-top:20px;
+			text-align:center;
+			font-family:Roboto, Open Sans, Verdana;
+		}
+		.header .logo{
+			width:250px;
+			padding:10px 0px;
+
+		}
+		.header p, .header a {
+			display:inline-block;
+			padding:10px;
+			font-size:15px;
+			text-decoration: none;
+		}
+		.header .navs {
+			display:inline-block;
+
+			margin-top:20px;
+		}
+		.header .naving {
+			display:inline-block;
+			color:#397ecc;
 			
 		}
+		.header .active{
+			background-color:#397ecc;
+			color:white;
+			border-radius:8px;
+		}
+		.header .naving a:hover {
+			background-color:#397ecc;
+			color:white;
+			border-radius:8px;
+		} 
 		
-		
+
+		/*GALLERY PAGE*/
+		.gallery .nav li{
+			margin-left:auto;
+			margin-right:auto;
+			display:inline-block;
+		}
+		.gallery .nav {
+			text-align: center;
+			margin-top:0px;
+		}
+
+						@media only screen and (max-width: 550px){
+							.gallery .nav{
+								margin-top:10px;
+							}
+						}
+
 		.gallery h2 {
 			margin-top:20px;
 		}
-		
+		.gallery h3 {
+			padding-top:-5px;
+			margin-top:1px;
+			text-align: center;
+		}
 		.gallery li {
 			font-weight:bold;
 			display:inline-block;
 		}
-		
 		.gallery .nav-tabs {
 			margin-top:15px;
-			
 		}
-		
-		
-		
 		.navigation .active {
 			background-color:#397ecc;
 			color:white;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			border-radius:5px;			
+			border-radius:10px;			
 		}
-		
 		a .active {
 			color:white;
 		}
-		
+		.gallery a {
+			
+		}
 		.tab-content h3 {
 			color:black;
 			font-size:20px;
+			text-align: justify;
 		}
-		
 		.tab-content {
 			background-color:white;
 			margin-top:20px;
 			color:black
-		
-			
 		}
-		
-		.tab-content .row img {
-			display:inline-block;
-			border-radius:0px;
-		}
-	
-		
 		.row {
-			
 			padding:0px 10px;
 			margin-left:30px;
-		}
-		
-		
-		
-		img {
-			padding:10px 0px;
-			width:200px;
-			border-radius:0px;
-		}
-		
+		}	
 		.modal {
 			margin-top:auto;
 			margin-bottom:auto;
 			color:black;
 		}
-		
 		.modal-header {
 			background-color:#000a1c;
 		}
-		
-		
 		.modal-footer {
 			background-color:#000a1c;
 			
 		}
-		
 		.modal-title{
 			color:black;
 		}
-		
 		.btn-default {
 			background-color:#000a1c;
 			color:white;
 		}
-		
-
-
 		.modal-content {
 			color:white;
 		}
-
+		.modal-content h4 {
+			font-size:24px;
+			font-weight:bold;
+		}
 		.modal-content .modalimg {
 			width:100%;
 			border-radius:0px;
 			display:inline-block;
 		}
-
 		.modal-content .modalrectangle {
 			width:100%;
-			max-width:500px;
 			border-radius:0px;
 			margin-left:auto;
 			margin-right:auto;
-
 		}
-		
 		.modal-body .modaltext {
 			display:inline-block;
 		}
-		
-		
 		.modal-content h4,.modal-content h1 
 		.modal-content h2,.modal-content h3,{
 			font-weight:bold;
 			font-family:Roboto, Open Sans, Verdana;
 			color:white;
 		}
-
 		.modal-body p {
 			color:white;
 		}
-		
 		.tab-pane {
 			background-color:white;
 		}
-		
-		
+		.gallerythumbs {
+			width:180px;
+			margin-left:auto;
+			margin-right: auto;
+			display:inline-block;
+		}
+		.websitethumbs {
+			width:300px;
+			border:0.5px black solid;
+		}
+						@media only screen and (max-width: 550px){
+							.row{
+								padding:0px;
+								margin-left:18px;
+							}
+							.tab-content h3{
+								font-size:15px;
+							}
+							.modal-content{
+								color:black;
+								padding-top:10px;
+							}
+							.gallerythumbs{
+								width:150px;
+							}
 
-		
-		
-		
-		 /*FOOTER*/
-    
+						}
+
+		/*ABOUTS PAGE*/
+		.profileimg {
+			border-radius:0%;
+			width:75%;
+			margin-left:auto;
+			margin-right:auto;
+			display:block;
+		}
+		.contentprofile h3 {
+			text-align:justify;
+			font-weight: bold;
+		}
+		.contentprofile {
+			background-color:white;
+			font-family:Open Sans, Roboto, Verdana;
+			text-align: justify;
+		}
+		.contentprofile span {
+			font-family:Open Sans, Roboto, Verdana;
+		}
+		.contentprofile .artistdescription {
+			text-align:center;
+		}
+		.skillsimgs {
+			display:inline-block;
+			width:100%;
+			max-width:100px;
+		}
+		.abouttitles{
+			font-weight:bold;
+			font-size:x-large;
+		}
+		.experiencesimgs {
+			width:100%;
+			margin-right:auto;
+			margin-left:auto;
+			display:block;
+		}
+		.postheader{
+			font-weight:bold;
+			text-align: justify;
+			margin-top:10px;
+		}
+
+					@media only screen and (max-width: 550px){
+						.naving {
+							font-weight:bold;
+						}
+						.profileimg {
+							width:100%;
+						}
+						.contentprofile h3{
+							font-weight:900;
+							margin-top:20px;
+						}
+						.abouttitles{
+							font-size:25px;
+							padding:5px 0px;
+							text-align: center;
+						}
+					}
+
+		/*CONTACT PAGE*/
+
+		.contactimg {
+			width:100%;
+		}
+		.qrcode {
+			margin-left:auto;
+			margin-right:auto;
+			width:100px;
+			display:block;
+		}
+		.contactbody {
+			margin-top:18px;
+			text-align: center;
+		}
+		.contactbody h2{
+			margin-top:0px;
+		}
+
+			@media only screen and (max-width: 550px){
+							.qrcode{
+								width:100%;
+							}
+							}
+	/*FOOTER*/
     .footer {
 		background-color:white;
 		margin-top:50px;
@@ -190,38 +385,26 @@
 		padding-bottom:30px;
 		text-align:center;
     }
-    
-	
-	
 	.footer h4 {
 		margin-top:14px;
 		color:#397ecc;
+		font-size:16px;
 	}
-
 	.footer a{
 		padding-top:20px;
 		padding-left:5px;
 		padding-right:5px;
 		display:inline;
 	}
-	.fa-facebook-square {
-		color:#397ecc;
-	}
-	.fa-instagram {
-		color:#397ecc;
-	}
-	.fa-twitter {
-		color:#397ecc;
-	}
-	.fa-tumblr {
-		color:#397ecc;
-	}
-	.fa-linkedin {
+	.fa-facebook-square, .fa-instagram, .fa-twitter, .fa-tumblr,
+	.fa-linkedin, .fa-copyright {
+		font-size:40px;
 		color:#397ecc;
 	}
 	.fa-copyright {
 		margin-top:8px;
 		color:#397ecc;
+		font-size:12px;
 	}
 		
 	.footer i:hover {
