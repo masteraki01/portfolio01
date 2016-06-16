@@ -161,7 +161,7 @@
 		}
 		.gallery .nav {
 			text-align: center;
-			margin-top:0px;
+			margin-top:5px;
 		}
 
 						@media only screen and (max-width: 550px){
@@ -201,6 +201,7 @@
 			color:black;
 			font-size:20px;
 			text-align: justify;
+			padding:5px;
 		}
 		.tab-content {
 			background-color:white;
@@ -236,6 +237,7 @@
 		.modal-content h4 {
 			font-size:24px;
 			font-weight:bold;
+			margin-top:20px;
 		}
 		.modal-content .modalimg {
 			width:100%;
