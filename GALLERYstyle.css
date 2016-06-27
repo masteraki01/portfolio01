@@ -139,21 +139,30 @@
 		.header .naving {
 			display:inline-block;
 			color:#397ecc;
+			font-size:smaller;
 			
 		}
 		.header .active{
 			background-color:#397ecc;
 			color:white;
 			border-radius:8px;
+			font-size:smaller;
 		}
 		.header .naving a:hover {
 			background-color:#397ecc;
 			color:white;
 			border-radius:8px;
+			font-size:smaller;
 		} 
 		
 
 		/*GALLERY PAGE*/
+		.nav li a:hover{
+			border-radius:8px;
+		}
+		.nav li a{
+			font-size:small;
+		}
 		.gallery .nav li{
 			margin-left:auto;
 			margin-right:auto;
@@ -390,7 +399,7 @@
 	.footer h4 {
 		margin-top:14px;
 		color:#397ecc;
-		font-size:16px;
+		font-size:small;
 	}
 	.footer a{
 		padding-top:20px;
@@ -406,7 +415,7 @@
 	.fa-copyright {
 		margin-top:8px;
 		color:#397ecc;
-		font-size:12px;
+		font-size:x-small;
 	}
 		
 	.footer i:hover {
