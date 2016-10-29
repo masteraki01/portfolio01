@@ -8,7 +8,7 @@
 
 
 		.header {
-			background-color:00a4ab;
+			background-color:#00A4AB;
 }
 
 		/*SPLASH Page*/
@@ -19,6 +19,7 @@
 
 		}
 		.splashheader {
+			 background-color:#00A4AB;
 			margin-top:200px;
 			margin-bottom:auto;
 			text-align:center;
@@ -60,7 +61,7 @@
 		
 		}
 		.splashfooter {
-		background-color:white;
+		background-color:#00A4AB;
 		margin-top:95px;
 		padding-top:50px;
 		padding-bottom:30px;
