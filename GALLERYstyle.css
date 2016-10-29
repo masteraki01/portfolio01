@@ -12,89 +12,63 @@
 }
 
 		/*SPLASH Page*/
-		.splashheader .title{
-			margin-left:auto;
-			margin-right:auto;
-			display:block;
 
-		}
-		.splashheader {
-			 background-color:#00A4AB;
-			margin-top:200px;
-			margin-bottom:auto;
-			text-align:center;
-			color:black;
-		}
-		.splashheader body {
+		.splashheader .title{
+			
+
+		body {
 			background-color:#00A4AB;
-}
-		.splashheader h1 {
+			color:black;
+			list-style:none;
+		}
+	
+		.header h1 {
 			font-family:Open Sans Condensed;
-			color:white;
 			font-size:80px;
 			font-weight:bold;
 		}
-		.splashheader h2 {
-			color:white
+		
+		.header h2 {
 			margin-top:30px;
 			font-weight:bold;
 		}
-		.splashnavigation {
+		
+		
+		.navigation {
 			list-style:none;
 			margin-top:60px;
-			margin-left:auto;
-			margin-right:auto;
-			display:inline-block;		}
-		.splashnavigation li {
+			
+		}
+		
+		
+		
+		.navigation li {
 			border:1px solid black;
 			border-radius:2px;
 			padding:15px;
 			list-style:none;
 			display:inline-block;
+			
 		}
-		.splashnavigation a {
+		
+		.navigation a {
 			color:black;
 			text-decoration:none;
 			margin-left:10px;
 			margin-right:10px;
 			padding:5px;
 		}
-		.splashnavigation a :hover{
-			background-color:rgb(255,205,87);
+		
+		.navigation a :hover{
+			background-color:#397ecc;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			color:white;
-		
+			font-weight:bold;
+			
 		}
-		.splashfooter {
-		background-color:#00A4AB;
-		margin-top:95px;
-		padding-top:50px;
-		padding-bottom:30px;
-		text-align:center;
-    }
-		.splashfooter h4 {
-		margin-top:14px;
-		color:#397ecc;
-	}
-		.splashfooter a{
-		padding-top:20px;
-		padding-left:5px;
-		padding-right:5px;
-		display:inline;
-	}
-		.fa-facebook-square, .fa-instagram, .fa-twitter, .fa-tumblr,
-		.fa-linkedin, .fa-copyright {
-		font-size:40px;
-		color:#397ecc;
-	}
-		.splashfooter .fa-copyright {
-		margin-top:20px;
-		color:#397ecc;
-		font-size:12px;
-	}
-		.splashfooter i:hover {
-		color:#397ecc;
-	}
+		
+		
+		</style>
 
 							@media only screen and (max-width: 550px){
 								* {
