@@ -25,12 +25,17 @@
 			text-align:center;
 			color:black;
 		}
+		.splashheader body {
+			background-color:#00A4AB;
+}
 		.splashheader h1 {
 			font-family:Open Sans Condensed;
+			color:white;
 			font-size:80px;
 			font-weight:bold;
 		}
 		.splashheader h2 {
+			color:white
 			margin-top:30px;
 			font-weight:bold;
 		}
