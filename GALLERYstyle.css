@@ -13,10 +13,12 @@
 
 		/*SPLASH Page*/
 
-		.splashheader .title{
+		.splashheader body{
+			background-color#00A4AB;
+}
 			
 
-		.body {
+		body {
 			background-color:#00A4AB;
 			color:black;
 			list-style:none;
