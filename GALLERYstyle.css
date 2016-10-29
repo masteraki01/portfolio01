@@ -148,14 +148,14 @@
 			
 		}
 		.header .active{
-			background-color:#397ecc;
+			background-color:rgb(255,205,87);
 			color:white;
 			border-radius:8px;
 			font-size:smaller;
 		}
 		.header .naving a:hover {
 			background-color:rgb(255,205,87);
-			color:white;
+			color:rgb(255,205,87);
 			border-radius:8px;
 			font-size:smaller;
 		} 
