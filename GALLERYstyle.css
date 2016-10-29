@@ -16,7 +16,7 @@
 		.splashheader .title{
 			
 
-		body {
+		.body {
 			background-color:#00A4AB;
 			color:black;
 			list-style:none;
@@ -68,7 +68,6 @@
 		}
 		
 		
-		</style>
 
 							@media only screen and (max-width: 550px){
 								* {
