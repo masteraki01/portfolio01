@@ -132,6 +132,7 @@
 		}
 		.header p, .header a {
 			display:inline-block;
+			color:white;
 			padding:10px;
 			font-size:15px;
 			text-decoration: none;
