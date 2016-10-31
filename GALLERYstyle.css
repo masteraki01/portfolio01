@@ -77,19 +77,21 @@
 									font-family:Roboto, Open Sans, Verdana;
 								}
 								.splashheader{
-									margin-top:50px;
+									
 								}
 
 								.splashheader .title{
+									margin-top:20px;
 									font-size:xx-large;
 									font-weight:bolder;
 								}
 								.splashheader h2{
+									margin-top:15px;
 									font-size:medium;
 									font-weight:lighter;
 								}
 								.splashnavigation{
-									margin-top:20px;
+									margin-top:80px;
 								}
 								.splashnavigation li{
 									display:block;
